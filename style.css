@@ -239,3 +239,34 @@ background: rgba(233, 224, 224, 0.281);
 .think-btn{
     margin-bottom: 10px;
 }
+/* footer */
+footer{
+    background-color: #001931;
+    min-height: 400px;
+    color: white;
+}
+.contact-copyright{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links{
+    font-size: 20px;    
+}
+.links{
+    margin-top: 5px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 7px;
+}
+.copyright{
+    border-top: 2px solid rgb(19, 36, 79);
+    margin-top: 80px;
+    padding-top: 50px;
+}
