@@ -28,11 +28,12 @@
 }
 
 /* navber styles */
-.logo{
+.logo {
     width: 100px;
     height: 60px;
     cursor: pointer;
 }
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -51,10 +52,65 @@
     color: rgba(0, 0, 0, 1);
     font-weight: 500;
 }
-.nav-menu li a:hover{
+
+.nav-menu li a:hover {
     color: aliceblue;
     transition: 0.4s;
     background-color: #287649;
     border-radius: 5px;
     padding: 12px 16px;
+}
+
+/* Banner styles */
+.banner {
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, .4),
+            rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, .4),
+            rgba(0, 0, 0, 0)), url(./assets/hero-bg.png);
+    /* min-height: 600px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.hero-notice {
+    background-color: rgba(255, 255, 255, 1);
+    max-width: max-content;
+    margin: auto;
+    color: #469165;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.hero-title{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+.green-hero{
+    color: #30B868;
+}
+.hero-subtitle{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.transparent-btn{
+    border: 2px solid white;
+    background-color: transparent;
+    margin-left: 10px;
 }
