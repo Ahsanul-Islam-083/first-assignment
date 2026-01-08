@@ -217,3 +217,25 @@
     gap: 5px;
     align-items: center;
 }
+/* ready to think section */
+.ready-to-think{
+background: rgba(233, 224, 224, 0.281);
+ min-height: 400px;
+ margin: 100px auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 12px;
+}
+.think-title{
+    color: rgba(0, 25, 49, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.think-dtails{
+    margin-bottom: 16px;
+}
+.think-btn{
+    margin-bottom: 10px;
+}
