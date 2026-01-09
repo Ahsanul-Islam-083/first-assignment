@@ -8,7 +8,7 @@
 
 .container {
     width: 90%;
-    max-width: 1600px;
+    max-width: 1340px;
     margin: auto;
 }
 
@@ -136,10 +136,11 @@
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
+    gap: 10px;
 }
 .card{
-    width: 300px; 
-    height: 300px; 
+    /* width: 300px; 
+    height: 300px;  */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -147,7 +148,7 @@
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.109);
     background-color: rgba(255, 255, 255, 1);
-    padding: 20px;
+    padding: 80px 20px;
 }
 .card div{
     margin-bottom: 16px;
