@@ -75,7 +75,7 @@
             rgba(0, 0, 0, .7),
             rgba(0, 0, 0, .4),
             rgba(0, 0, 0, 0)), url(./assets/hero-bg.png);
-    /* min-height: 600px; */
+
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -140,7 +140,6 @@
 }
 .card{
      width: 270px; 
-   /* height: 300px;  */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -181,10 +180,6 @@
  align-items: center;
 }
 .brain-img{
-    /* width: 50%; */
-    /* flex-grow: 1; */
-    /* width: 600px;
-    height: 600px; */
 }
 .brain-img img{
     width: 700px;
